@@ -1,13 +1,15 @@
 Project Roadmap:
 
 **Week 1:**
-
- Create Team on Github #done
+Create project title #done
  Learn Markdown Language #done
+ Enter project title into Excel #done
  Find Example README  #done
  Setup Repository #done
  Clone Existing Repository #done
- write roadmap #done
+ create roadmap.md file#done
+create readme.md file #done
+add repository to ksu is org #done
 
 **Week 2:**
 
@@ -20,3 +22,5 @@ Development
 
 Continuous Development
  Collaboration and Communication
+ Create project title
+
