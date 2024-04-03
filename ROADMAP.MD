@@ -2,17 +2,18 @@ Project Roadmap:
 
 **Week 1:**
 
- Create Team on Github
- Learn Markdown Language
- Find Example README
- Setup Repository
- Clone Existing Repository
+ Create Team on Github #done
+ Learn Markdown Language #done
+ Find Example README  #done
+ Setup Repository #done
+ Clone Existing Repository #done
+ write roadmap #done
 
 **Week 2:**
 
  Write README.md
- Create Project Roadmap
- Development
+write code
+Development
  Project Review
 
 **Ongoing:**
