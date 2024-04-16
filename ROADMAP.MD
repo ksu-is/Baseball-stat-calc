@@ -13,8 +13,9 @@ add repository to ksu is org #done
 
 **Week 2:**
 
- Write README.md
-write code
+ Write README.md #done
+write code #done
+edit code 
 Development
  Project Review
 
