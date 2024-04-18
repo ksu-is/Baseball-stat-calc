@@ -18,9 +18,10 @@ def calculate_on_base_percentage(hits, walks, hit_by_pitch, at_bats):
         return 0.0 #calculate on base percentage to be used in OPS calculation
     else:
         return (hits + walks + hit_by_pitch) / plate_appearances
-
 def calculate_ops(batting_average, on_base_percentage, slugging_percentage):
-    return batting_average + on_base_percentage + slugging_percentage #combines battingAVG, on-base %, and slugging %, to calculate OPS
+    ops = (batting_average * 1000) + (on_base_percentage * 1000) + (slugging_percentage * 1000)
+    return ops  # Add this line to return the calculated OPS
+
 
 def get_user_input(): #ask user for all neccesary parameters
     hits = int(input("Enter the total number of hits (singles, doubles, triples, home runs): "))
