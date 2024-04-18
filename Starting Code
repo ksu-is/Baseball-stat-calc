@@ -2,9 +2,7 @@ def calculate_batting_average(hits, at_bats):
     if at_bats == 0:
         return 0.0
     else:
-        batting_average = float(hits / at_bats)
-        return round(batting_average, 3)  # Round the batting average to 3 decimal places
-
+         return round(hits / at_bats, 3) 
 def calculate_slugging_percentage(hits, singles, doubles, triples, home_runs, at_bats):
     if at_bats == 0:
         return 0.0
