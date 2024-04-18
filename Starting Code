@@ -15,17 +15,19 @@ def calculate_on_base_percentage(hits, walks, hit_by_pitch, at_bats):
 def calculate_ops(batting_average, on_base_percentage, slugging_percentage):
     return batting_average + on_base_percentage + slugging_percentage #combines battingAVG, on-base %, and slugging %, to calculate OPS
 
-def get_user_input(): #ask user for all neccesary parameters
-    hits = int(input("Enter the total number of hits (singles, doubles, triples, home runs): "))
-    singles = int(input("Enter the number of singles: "))
-    doubles = int(input("Enter the number of doubles: "))
-    triples = int(input("Enter the number of triples: "))
-    home_runs = int(input("Enter the number of home runs: "))
-    at_bats = int(input("Enter the number of at-bats: "))
-    walks = int(input("Enter the number of walks: "))
-    hit_by_pitch = int(input("Enter the number of times hit by pitch: "))
-    
+def get_user_input():
+    hits, singles, doubles, triples, home_runs, at_bats, walks, hit_by_pitch = (
+        int(input("Enter the total number of hits (singles, doubles, triples, home runs): ")),
+        int(input("Enter the number of singles: ")),
+        int(input("Enter the number of doubles: ")),
+        int(input("Enter the number of triples: ")),
+        int(input("Enter the number of home runs: ")),
+        int(input("Enter the number of at-bats: ")),
+        int(input("Enter the number of walks: ")),
+        int(input("Enter the number of times hit by pitch: "))
+    )
     return hits, singles, doubles, triples, home_runs, at_bats, walks, hit_by_pitch
+
 
 
 def calculate_all_stats(hits, singles, doubles, triples, home_runs, at_bats, walks, hit_by_pitch):
