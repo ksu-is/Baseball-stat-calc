@@ -43,11 +43,27 @@ def get_user_input():
 
 
 def calculate_all_stats(hits, singles, doubles, triples, home_runs, at_bats, walks, hit_by_pitch):
+    """
+    Calculate various baseball statistics based on provided inputs.
+
+    Args:
+    hits (int): Total number of hits.
+    singles (int): Number of singles.
+    doubles (int): Number of doubles.
+    triples (int): Number of triples.
+    home_runs (int): Number of home runs.
+    at_bats (int): Number of at-bats.
+    walks (int): Number of walks.
+    hit_by_pitch (int): Number of times hit by pitch.
+
+    Returns:
+    tuple: A tuple containing calculated values for batting average, slugging percentage, and OPS.
+    """
     batting_average = calculate_batting_average(hits, at_bats)
     slugging_percentage = calculate_slugging_percentage(hits, singles, doubles, triples, home_runs, at_bats)
     on_base_percentage = calculate_on_base_percentage(hits, walks, hit_by_pitch, at_bats)
     ops = calculate_ops(batting_average, on_base_percentage, slugging_percentage)
-    
+
     return batting_average, slugging_percentage, ops
 
 
