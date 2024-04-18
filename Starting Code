@@ -80,7 +80,8 @@ def main():
     choice = int(input("Enter your choice (1/2/3/4): "))
 
     if choice == 1:  
-        hits, at_bats = get_user_input()[:2]  # Get only hits and at-bats for batting average
+       hits, at_bats, *_ = get_user_input()
+  # Get only hits and at-bats for batting average
         batting_average = calculate_batting_average(hits, at_bats)
         print(f"Batting Average: {batting_average:.3f}") #displays batting average to three decimal places
 
