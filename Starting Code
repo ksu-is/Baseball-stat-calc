@@ -4,9 +4,9 @@ def calculate_batting_average(hits, at_bats):
 def calculate_slugging_percentage(hits, singles, doubles, triples, home_runs, at_bats):
     if at_bats == 0:
         return 0.0
-    else:
-        total_bases = singles + (2 * doubles) + (3 * triples) + (4 * home_runs) 
-        return total_bases / at_bats #calculate and return slugging percentage
+    total_bases = singles + (2 * doubles) + (3 * triples) + (4 * home_runs)
+    return total_bases / at_bats
+
 
 def calculate_on_base_percentage(hits, walks, hit_by_pitch, at_bats):
     plate_appearances = at_bats + walks + hit_by_pitch
