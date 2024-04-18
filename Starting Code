@@ -84,7 +84,7 @@ def main():
         print(f"OPS: {ops:.3f}") 
     
     else:
-        print("Invalid choice. Please enter 1, 2, 3, or 4.")
+        print("Invalid choice. Please enter a number between 1 and 4.")
         #breaks loop
 
 if __name__ == "__main__":
