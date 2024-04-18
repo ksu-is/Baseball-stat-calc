@@ -49,7 +49,8 @@ def main():
     print("3. OPS")
     print("4. All Three Stats")
 
-    choice = int(input("Enter your choice (1/2/3/4): "))
+    choice = int(input("Enter your choice: "))
+
 
     if choice == 1:  
         hits, at_bats = get_user_input()[:2]  # Get only hits and at-bats for batting average
