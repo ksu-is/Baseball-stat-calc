@@ -87,7 +87,7 @@ def main():
 
 
     elif choice == 2:
-        hits, singles, doubles, triples, home_runs, at_bats = get_user_input()[:6]
+        hits, singles, doubles, triples, home_runs, at_bats, _, _ = get_user_input()
         slugging_percentage = calculate_slugging_percentage(hits, singles, doubles, triples, home_runs, at_bats)
         print(f"Slugging Percentage: {slugging_percentage:.3f}") #display sliugging percentage to three decimal places
     
