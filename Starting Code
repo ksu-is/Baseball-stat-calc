@@ -51,7 +51,7 @@ def main():
 
     choice = int(input("Enter your choice: "))
 
-
+#Shows all the availiable options
     if choice == 1:  
         hits, at_bats = get_user_input()[:2]  # Get only hits and at-bats for batting average
         batting_average = calculate_batting_average(hits, at_bats)
