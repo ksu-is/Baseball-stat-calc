@@ -15,7 +15,8 @@ add repository to ksu is org #done
 
  Write README.md #done
 write code #done
-edit code 
+edit code and make sure everything is working 
+Develope a road mnap
 Development
  Project Review
 
